@@ -43,8 +43,11 @@ body {
 .ui-page{
     background-color: #000;
 }
-.ui-page h1,h2,h3,h4,a,i,p{
+/*.ui-page h1,h2,h3,h4,a,i,p{
     color:#fff;
+}*/
+.dropdown-menu{
+    background-color: #000;
 }
 
 

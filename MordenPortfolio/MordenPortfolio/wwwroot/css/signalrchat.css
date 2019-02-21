@@ -1,0 +1,21 @@
+﻿/* ChatBox */
+.ui-message-list li {
+    list-style-type: none;
+    margin-top: 10px;
+}
+
+.ui-message-list b {
+    padding: 5px 5px 5px 5px;
+    border-radius: 10px;
+}
+
+.ui-message-list {
+    height: 500px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.ui-message-input {
+    max-height: 140px;
+    max-width: 900px;
+}

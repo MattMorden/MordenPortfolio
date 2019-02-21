@@ -34,6 +34,18 @@
                     <li><a asp-page="/Index">Home</a></li>
                     <li><a asp-page="/About">About</a></li>
                     <li><a asp-page="/Contact">Contact</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Projects
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <ul>
+                                <li><a class="dropdown-item" asp-page="/SignalRChat">SignalR Chat</a></li>
+                                <li><a class="dropdown-item" asp-page="/">GameTracker</a></li>
+                                <li><a class="dropdown-item" asp-page="/">Extra</a></li>
+                            </ul>
+                        </div>
+                    </li>
                 </ul>
             </div>
         </div>
