@@ -35,3 +35,31 @@ body {
         display: none;
     }
 }
+
+.ui-img-rounded{
+    border-radius:100px;
+}
+
+.ui-page{
+    background-color: #000;
+}
+.ui-page h1,h2,h3,h4,a,i,p{
+    color:#fff;
+}
+
+
+
+body {
+    /*background-color: #ce3635;*/
+    background-color:#000;
+    text-align: center;
+    color: #fff;
+    padding-top: 5em;
+}
+* {
+    color: #fff;
+    text-decoration: none;
+}
+/*.typewrite {
+    font-family: 'Press Start 2P', cursive;
+}*/
